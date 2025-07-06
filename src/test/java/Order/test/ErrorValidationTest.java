@@ -29,7 +29,7 @@ public class ErrorValidationTest extends BaseTest{
 	{
 		ProductCatlogPage productcatlog=landingpage.LoginInfo("dharanidhar220@gmail.com", "Ilovecricket@123q");
 		String ErrorText=landingpage.ErrorPopUp();
-		Assert.assertEquals(ErrorText, "Incorrect email or password.1");	
+		Assert.assertEquals(ErrorText, "Incorrect email or password.");	
 	}
 	//Tc_004
 	@Test(priority = 1)
